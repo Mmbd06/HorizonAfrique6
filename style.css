@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url(fond\ 4.png);
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 7%;
+    padding-right: 7%;
+    box-sizing: border-box;
+}
+
+header {
+    font-size: 20px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    padding-left: 2%;
+    padding-top: 5px;
+}
+
+header h3 {
+    font-family: cursive;
+    color: black;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: cover;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    text-align: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    transition: 0.1s;
+}
+
+.r {
+    margin-top: 10px;
+}
+
+.col {
+    display: flex;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+footer {
+    height: 240px;
+    padding: 5px;
+    background-color: black;
+}
+
+.cont {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    width: 33.3%;
+}
+
+.footer-content p {
+    color: white;
+    width: 350px;
+    margin: auto;
+    padding: 5px;
+}
+
+.footer-content a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.footer-content img {
+    width: 20px;
+    height: 20px;
+    display: cover;
+    border-radius: 50px;
+}
+
+footer h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.footer-head {
+    text-align: center;
+}
+
+.botton-bar {
+    text-align: center;
+    margin-top: 3px;
+}
+
+.card {
+    width: 450px;
+    height: 400px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 2px 2px 4px black
+}
+
+.card p {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.card p:hover {
+    opacity: 1;
+}
+
+.card13 h3 {
+    color: black;
+}
+
+.card8 h3 {
+    color: black;
+}
+
+h3 {
+    color: #fff;
+}
+
+.card1 {
+    background-image: url(Pyramides\ de\ Gizeh.jpeg);
+}
+
+.card2 {
+    background-image: url(Musé\ du\ Caire.png);
+}
+
+.card3 {
+    background-image: url(Khan\ El\ Khalili.png);
+}
+
+.card4 {
+    background-image: url(Mosquée\ Al\ Azhar.png);
+}
+
+.card5 {
+    background-image: url(African\ Renaissance\ Monument.jpeg);
+}
+
+.card6 {
+    background-image: url(Ile\ de\ gorée.jpeg);
+}
+
+.card7 {
+    background-image: url(Lake\ Retba\ \(Lac\ Rose\)\ -\ Senegal\,\ Africa.jpeg);
+}
+
+.card8 {
+    background-image: url(Musée\ des\ civilisations\ noires.jpeg);
+}
+
+.card9 {
+    background-image: url(Stone\ Town\ City.jpeg);
+}
+
+.card10 {
+    background-image: url(Zanzibar\ Plage.jpeg);
+}
+
+.card11 {
+    background-image: url(Spice\ Tour.jpeg);
+}
+
+.card12 {
+    background-image: url(Prison\ Island.jpeg);
+}
+
+.card13 {
+    background-image: url(Musée\ du\ génocide\ Rwandais.png);
+}
+
+.card14 {
+    background-image: url(Kimironko\ Market.jpeg);
+}
+
+.card15 {
+    background-image: url(Kigali\ Convention\ centre.jpeg);
+}
+
+.card16 {
+    background-image: url(Centre\ de\ conservation\ des\ chimpanzés\ de\ Nyungwe.jpeg);
+}
+
+.card17 {
+    background-image: url(Table\ Moutin.jpeg);
+}
+
+.card18 {
+    background-image: url(Robben\ Island.jpeg);
+}
+
+.card19 {
+    background-image: url(Cape\ Pointe.jpeg);
+}
+
+.card20 {
+    background-image: url(District\ Six\ Museum.jpeg);
+}
+
+.card:hover {
+    transform: translateY(-20px);
+}
